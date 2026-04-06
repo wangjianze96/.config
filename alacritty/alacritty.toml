@@ -1,0 +1,28 @@
+[general]
+working_directory = "c:/Users/jz/"
+import = [
+  "c:/Users/jz/AppData/Roaming/alacritty/themes/themes/dracula.toml",
+]
+
+[window]
+opacity = 1.0
+startup_mode = "Maximized"
+# blur = true # seems only works on macOS and KDE
+
+[font]
+normal = { family = "Maple Mono NF CN", style = "Regular" }
+bold = { family = "Maple Mono NF CN", style = "Bold" }
+italic = { family = "Maple Mono NF CN", style = "Italic" }
+bold_italic = { family = "Maple Mono NF CN", style = "Bold Italic" }
+size = 16.0
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+# [terminal]
+# shell = "pwsh"
+
+# alacritty.toml 示例
+[terminal.shell]
+program = "wsl.exe"
+args = ["~"] # 启动时进入用户主目录
