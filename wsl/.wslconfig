@@ -1,0 +1,7 @@
+[wsl2]
+swap = 4GB
+localhostforwarding = true
+nestedVirtualization = false
+guiApplications = true
+networkingMode = mirrored
+autoProxy = true
