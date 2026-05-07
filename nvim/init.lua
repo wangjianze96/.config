@@ -6,7 +6,7 @@ vim.o.shiftwidth = 4
 vim.pack.add({
 	'https://github.com/mofiqul/dracula.nvim', -- Dracula theme
 	'https://github.com/nvim-lualine/lualine.nvim', -- statusline
-	'https://github.com/nvim-mini/mini.pairs', -- autopairs for blunks
+	'https://github.com/nvim-mini/mini.pairs', -- autopairs for brackets and quotations
 	'https://github.com/saghen/blink.lib',
 	'https://github.com/saghen/blink.cmp', -- completion plugin
 	'https://github.com/neovim/nvim-lspconfig', -- collection of LSP server configurations
