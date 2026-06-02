@@ -28,7 +28,7 @@ require('mini.pairs').setup()
 
 -- enable blink.cmp
 local cmp = require('blink.cmp')
-cmp.build():wait(60000)
+cmp.build():wait(60000) -- in windows, after first build it will show error, go to AppData\Local\nvim-data\site\pack\core\opt\blink.cmp\target\relesese, rename blink_cmp_fuzzy.dll to libblink_cmp_fuzzy.dll
 cmp.setup({
 	keymap = { preset = 'super-tab' }
 })
